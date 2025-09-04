@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Clases en Vivo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+<header class="hero">
+  <div class="overlay">
+    <div class="hero-content">
+      <img src="Logo.png" alt="Logo" class="logo">
+      <h2>6, 8 y 10 de OCTUBRE</h2>
+  <h1>
+  Descubre el único método capaz de hacer que 
+  <span class="highlight-green">cualquier negocio</span> facture más 
+  <span class="highlight-green">automáticamente</span>
+  mientras crece todos los meses...
+</h1>
+          <p class="subtext">
+        Sin importar tu situación actual, el tamaño de tu negocio o el tipo de producto o servicio que ofreces.
+      </p>
+      <a href="#" class="btn-primary">ME UNO AL RETO FREEDOM</a>
+      <p className="text-gray-500 text-sm">
+    Probado por +5,000 negocios en todo el mundo
+  </p>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Aviso rojo -->
+
+
+    <div class="banner-container">
+        <div class="banner-scroll">
+            <span class="fecha-item">LA ÚLTIMA EDICIÓN DE LA HISTORIA DEL RETO FREEDOM - <b>ESTE EVENTO NO SE VA A VOLVER A REALIZAR</b></span>
+            <span class="fecha-item">LA ÚLTIMA EDICIÓN DE LA HISTORIA DEL RETO FREEDOM - <b>ESTE EVENTO NO SE VA A VOLVER A REALIZAR</b></span>
+            <span class="fecha-item">LA ÚLTIMA EDICIÓN DE LA HISTORIA DEL RETO FREEDOM - <b>ESTE EVENTO NO SE VA A VOLVER A REALIZAR</b></span>
+            <span class="fecha-item">LA ÚLTIMA EDICIÓN DE LA HISTORIA DEL RETO FREEDOM - <b>ESTE EVENTO NO SE VA A VOLVER A REALIZAR</b></span>
+            <span class="fecha-item">LA ÚLTIMA EDICIÓN DE LA HISTORIA DEL RETO FREEDOM - <b>ESTE EVENTO NO SE VA A VOLVER A REALIZAR</b></span>
+            <span class="fecha-item">LA ÚLTIMA EDICIÓN DE LA HISTORIA DEL RETO FREEDOM - <b>ESTE EVENTO NO SE VA A VOLVER A REALIZAR</b></span>
+            <span class="fecha-item">LA ÚLTIMA EDICIÓN DE LA HISTORIA DEL RETO FREEDOM - <b>ESTE EVENTO NO SE VA A VOLVER A REALIZAR</b></span>
+            <span class="fecha-item">LA ÚLTIMA EDICIÓN DE LA HISTORIA DEL RETO FREEDOM - <b>ESTE EVENTO NO SE VA A VOLVER A REALIZAR</b></span>
+            <span class="fecha-item">LA ÚLTIMA EDICIÓN DE LA HISTORIA DEL RETO FREEDOM - <b>ESTE EVENTO NO SE VA A VOLVER A REALIZAR</b></span>
+            <span class="fecha-item">LA ÚLTIMA EDICIÓN DE LA HISTORIA DEL RETO FREEDOM - <b>ESTE EVENTO NO SE VA A VOLVER A REALIZAR</b></span>
+            <span class="fecha-item">LA ÚLTIMA EDICIÓN DE LA HISTORIA DEL RETO FREEDOM - <b>ESTE EVENTO NO SE VA A VOLVER A REALIZAR</b></span>
+            <span class="fecha-item">LA ÚLTIMA EDICIÓN DE LA HISTORIA DEL RETO FREEDOM - <b>ESTE EVENTO NO SE VA A VOLVER A REALIZAR</b></span>
+        </div>
+    </div>
+ 
+
+  <!-- Clases en vivo -->
+  <section class="classes">
+    <h2>Accederás a 3 clases gratis <br><span>• En Vivo •</span></h2>
+
+    <div class="class-card">
+      <img src="clase1.png" alt="Clase 1">
+      <div class="card-content">
+        <span class="badge">CLASE #1</span>
+        <h3>Cómo nunca ser esclavo de tu negocio</h3>
+        <p><strong>Lunes 6 de Octubre – 19:00hs CDMX</strong></p>
+      </div>
+    </div>
+
+    <div class="class-card">
+      <img src="clase2.jpg" alt="Clase 2">
+      <div class="card-content">
+        <span class="badge">CLASE #2</span>
+        <h3>El método exacto para ganar más trabajando menos</h3>
+        <p><strong>Miércoles 8 de Octubre – 19:00hs CDMX</strong></p>
+      </div>
+    </div>
+
+    <div class="class-card">
+      <img src="clase3.jpg" alt="Clase 3">
+      <div class="card-content">
+        <span class="badge">CLASE #3</span>
+        <h3>El plan perfecto para escalar tu negocio</h3>
+        <p><strong>Viernes 10 de Octubre – 19:00hs CDMX</strong></p>
+      </div>
+    </div>
+
+    <a href="#" class="btn-primary">¡Quiero mi acceso GRATIS!</a>
+  </section>
+
+</body>
+</html>
+ <style>
+
+        .banner-container {
+            width: 100%;
+            background: linear-gradient(90deg, #F00 0%, #000 50.48%, #F00 100%);
+            padding: 10px 0;
+            overflow: hidden;
+            position: relative;
+            white-space: nowrap;
+        }
+
+        .banner-scroll {
+            display: inline-block;
+            /* Made animation much slower (40s) and ensured continuous flow */
+            animation: scroll-left 50s linear infinite;
+            white-space: nowrap;
+        }
+
+        .fecha-item {
+            display: inline-block;
+            color: white;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-right: 100px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+.fecha-item { font-weight: 400; }
+.fecha-item b { font-weight: 700; } 
+
+
+        @keyframes scroll-left {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                /* Adjusted to move exactly one item width for seamless loop */
+                transform: translateX(-25%);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .fecha-item {
+                font-size: 16px;
+                margin-right: 80px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .fecha-item {
+                font-size: 14px;
+                margin-right: 60px;
+            }
+        }
+    </style>
