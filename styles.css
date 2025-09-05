@@ -123,11 +123,12 @@ body {
     padding: 3rem 1rem;
 
     /* Imagen de fondo */
-    background: url("fondo2.png") no-repeat center center/cover;
+    background: url("fondoo2.png") no-repeat center center/cover;
 
     /* Opcional: para oscurecer y que el texto se lea mejor */
     position: relative;
     z-index: 1;
+
 }
 
 .classes::before {
@@ -309,7 +310,8 @@ body {
     .hero h1 {
         font-size: 1.35rem;
         line-height: 1.35;
-        margin: 0.75rem 0 1rem
+        margin: 0.75rem 0 1rem;
+        margin-top:-28px;
     }
 
     .subtext {
@@ -417,6 +419,9 @@ body {
     transition: transform .15s ease, box-shadow .15s ease;
     margin-top: -10px;
 }
+
+
+
 }
 
 .class-card {
