@@ -231,6 +231,21 @@ body {
     display: none;
 }
 
+.btn-primary2 {
+    display: inline-block;
+    background-color: #FF0000;
+    transition: all 0.3s ease;
+    animation: parpadeo-elegante 2s infinite;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-weight: 800;
+    text-decoration: none;
+    border: none;
+    transition: transform .15s ease, box-shadow .15s ease;
+
+}
+
 @keyframes scroll-left {
     0% {
         transform: translateX(0)
