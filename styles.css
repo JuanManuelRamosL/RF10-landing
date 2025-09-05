@@ -246,6 +246,14 @@ body {
 
 }
 
+.vivo{
+    font-size: 20px;
+}
+.punto{
+    color: red;
+    font-size: 24px;
+}
+
 @keyframes scroll-left {
     0% {
         transform: translateX(0)
